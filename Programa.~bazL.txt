@@ -1,0 +1,18 @@
+locais s
+
+func d(x,y){
+    s = x*y
+    print s
+}
+
+func j(a,b,c){
+    s = (a+b)/c
+    print s
+    d(s,s)
+}
+
+func mainbazL(){
+    locais s
+    s = 2
+    j(s+2,s+4,s)
+}
